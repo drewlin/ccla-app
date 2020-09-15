@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/ping",
+            "lambdaFunction": "cclaDevLambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/ping"
+        }
+    ],
+    "resourceName": "cclaDevApi",
+    "apiName": "cclaDevApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "cclaDevLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-cclaapp-dev-224346-authRole",
+        "unAuthRoleName": "amplify-cclaapp-dev-224346-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "cclaDevLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
