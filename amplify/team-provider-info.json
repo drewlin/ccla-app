@@ -10,6 +10,11 @@
       "StackName": "amplify-cclaapp-dev-224346",
       "StackId": "arn:aws:cloudformation:us-east-1:783900252701:stack/amplify-cclaapp-dev-224346/47a584d0-f6fd-11ea-a4b4-0ac49251e793",
       "AmplifyAppId": "d1tnwyxejmq90l"
+    },
+    "categories": {
+      "auth": {
+        "cclaapp8f2418c5": {}
+      }
     }
   }
 }
